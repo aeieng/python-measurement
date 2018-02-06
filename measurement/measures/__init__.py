@@ -10,4 +10,10 @@ from measurement.measures.resistance import *
 from measurement.measures.capacitance import *
 from measurement.measures.frequency import *
 from measurement.measures.current import *
+from measurement.measures.area import *
+from measurement.measures.energy_rate import *
+from measurement.measures.energy_rate_flux import *
+from measurement.measures.enthalpy import *
+from measurement.measures.humidity_ratio import *
+from measurement.measures.illuminance import *
 from measurement.measures.pressure import *

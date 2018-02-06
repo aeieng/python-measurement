@@ -14,10 +14,12 @@ class Temperature(MeasureBase):
     UNITS = {
         'c': SU - S(273.15),
         'f': (SU - S(273.15)) * S('9/5') + 32,
-        'k': 1.0
+        'k': 1.0,
+        'r': (SU - S(273.15)) * S('9/5') + 491.67,
     }
     ALIAS = {
         'celsius': 'c',
         'fahrenheit': 'f',
         'kelvin': 'k',
+        'rankine': 'r',
     }
