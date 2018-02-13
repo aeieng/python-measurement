@@ -11,7 +11,7 @@ class HumidityRatio(MeasureBase):
     UNITS = {
         'kg__kg': 1.0,
         'lb__lb': 1.0,
-        'grain__lb': 7000.0,
+        'grain__lb': 0.00014285714,
     }
     ALIAS = {
         'Kilogram of Water Per Kilogram of Dry Air': 'kg__kg',
